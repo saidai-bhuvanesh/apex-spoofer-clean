@@ -1,48 +1,125 @@
-
-<!DOCTYPE html> 
-<html>
-  <head>
-      <title>Events</title>
-      <link rel="icon" href="./img/date.png">
-   </head>
-
-    <body bgcolor="black" style="color: white;">
-        <center>
-        <h1>Upcoming Events📅</h1>
-        <p>Don't miss any of yourimportant events.Stay Updated</p>
-        </center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <link rel="icon" href="./img/date.png">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            max-width: 350px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .info-box {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        a {
+            color: #4da6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a[rel="noopener"] {
+            color: #4da6ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center section">
+            <h1>Upcoming Events 📅</h1>
+            <p>Don't miss any of your important events. Stay Updated!</p>
+        </header>
 
         <hr>
 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, culpa! Excepturi, accusantium numquam? Sequi exercitationem blanditiis, incidunt dolorum et reiciendis optio ullam excepturi ex accusantium possimus quisquam fuga quo deleniti tenetur veniam. Accusamus, nostrum. Aliquid voluptatem harum excepturi modi explicabo optio aut sint libero repellendus non. Temporibus, necessitatibus quas? Rem fuga tempora, sit molestiae expedita quisquam saepe corporis aperiam voluptates reprehenderit autem modi ullam eius, asperiores ut delectus facilis, eveniet deserunt dignissimos! Pariatur provident eligendi commodi sequi est soluta quos corrupti excepturi, at rerum recusandae numquam temporibus labore, repellendus eius illum dicta adipisci enim. Incidunt dolore ea officia harum eius. ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde delectus inventore similique corporis architecto beatae? Nihil, expedita ad! Excepturi delectus ex praesentium inventore, a ab quia debitis laudantium nihil!
-        </p>
-    <center> 
-    <img src="img/event1.png">
-    <h1>Photo Gallery</h1>
-    <h2>Free Entry | Free Food | Pets are not Allowed</h2>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos dignissimos, dolore beatae magnam neque minus asperiores doloremque. Explicabo eaque delectus harum, eos nulla molestias vel ad nisi ex id corporis. Est saepe alias architecto porro in mollitia totam. Eum possimus doloribus atque rem nihil cupiditate ex eligendi beatae quidem?
-    </p>
+        <main class="section">
+            <article class="section">
+                <h2>About Our Events</h2>
+                <p>
+                    Join us for an exciting series of events designed to bring together 
+                    community members, enthusiasts, and professionals. Our events 
+                    feature keynote speakers, interactive workshops, and networking 
+                    opportunities that you won't want to miss.
+                </p>
+                <p>
+                    Whether you're interested in technology, arts, business, or wellness, 
+                    we have something for everyone. Check back regularly for updates 
+                    on upcoming events and registration information.
+                </p>
+            </article>
+            
+            <section class="gallery" aria-label="Event photo gallery">
+                <div class="gallery-item">
+                    <figure>
+                        <img src="img/event1.png" alt="Event venue setup with decorations and lighting">
+                        <figcaption>Event Venue</figcaption>
+                    </figure>
+                    <div class="info-box">
+                        <h3>Photo Gallery</h3>
+                        <p>Free Entry | Free Food | Pets Are Not Allowed</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <figure>
+                        <img src="img/event2.png" alt="Guest speakers presenting at the main stage">
+                        <figcaption>Guest Speakers</figcaption>
+                    </figure>
+                    <div class="info-box">
+                        <h3>Featured Sessions</h3>
+                        <p>Free Entry | Free Food | Pets Are Not Allowed</p>
+                        <p>
+                            <a href="https://www.myntra.com/" target="_blank" rel="noopener noreferrer">
+                                Visit Fashion Store
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-      <img src="img/event2.png">
-        <h1>
-            <br>
-            <a href="https://www.myntra.com/">Fashin Store</a>
-        </h1>  
-        <h1>Photo Gallery</h1>
-    <h2>Free Entry | Free Food | Pets are not Allowed</h2>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos dignissimos, dolore beatae magnam neque minus asperiores doloremque. Explicabo eaque delectus harum, eos nulla molestias vel ad nisi ex id corporis. Est saepe alias architecto porro in mollitia totam. Eum possimus doloribus atque rem nihil cupiditate ex eligendi beatae quidem?
-    </p>
-    </center>
+        <hr>
 
-    <hr>
-    <center> 
-    <h1>Contact</h1>
-    <h2>+91 9363445366 | fashionhub@gmail.com</h2>
-    <p>42/1 karthikeyan Road, Arni</p>
-    </center>
-    </body>
-
+        <footer class="text-center section">
+            <h2>Contact Information</h2>
+            <address>
+                <p>Email: <a href="mailto:contact@events.com">contact@events.com</a></p>
+                <p>Location: 42/1 Karthikeyan Road, Arni</p>
+            </address>
+        </footer>
+    </div>
+</body>
 </html>
